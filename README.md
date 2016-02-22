@@ -12,4 +12,7 @@ The IReposity<T> generic interface enables for other repositories to be implemen
 Seperately, a Shopping "Cart" object was defined to provide the "buy product" behaviour. This includes keeping a running total of the shopping cart along with inventory update.
 
 Inventory Lookup: http://localhost:14337/api/Inventory/Get
-Shopping Cart: 
+
+Shopping Cart: http://localhost:14337/api/Shop/Order/Product5/10
+
+
