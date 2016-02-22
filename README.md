@@ -10,3 +10,6 @@ Based on the above assumptions, modified the "Item" class to add a "int Quantity
 The IReposity<T> generic interface enables for other repositories to be implemented as needed (eg. dbContext) to connect to various persistance mechanism. For the project's scope, defined an in memory "MemoryRepository" for this purpose with some seed data.
 
 Seperately, a Shopping "Cart" object was defined to provide the "buy product" behaviour. This includes keeping a running total of the shopping cart along with inventory update.
+
+Inventory Lookup: http://localhost:14337/api/Inventory/Get
+Shopping Cart: 
