@@ -1,0 +1,9 @@
+C:\Users\SRAZDAN\Documents\Visual Studio 2012\Projects\trov-guilded-rose-inn\ShoppingCartService\ShoppingAPI.Tests\bin\Debug\ShoppingAPI.Tests.dll
+C:\Users\SRAZDAN\Documents\Visual Studio 2012\Projects\trov-guilded-rose-inn\ShoppingCartService\ShoppingAPI.Tests\bin\Debug\ShoppingAPI.Tests.pdb
+C:\Users\SRAZDAN\Documents\Visual Studio 2012\Projects\trov-guilded-rose-inn\ShoppingCartService\ShoppingAPI.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\SRAZDAN\Documents\Visual Studio 2012\Projects\trov-guilded-rose-inn\ShoppingCartService\ShoppingAPI.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+C:\Users\SRAZDAN\Documents\Visual Studio 2012\Projects\trov-guilded-rose-inn\ShoppingCartService\ShoppingAPI.Tests\obj\Debug\ShoppingAPI.Tests.csprojResolveAssemblyReference.cache
+C:\Users\SRAZDAN\Documents\Visual Studio 2012\Projects\trov-guilded-rose-inn\ShoppingCartService\ShoppingAPI.Tests\obj\Debug\ShoppingAPI.Tests.dll
+C:\Users\SRAZDAN\Documents\Visual Studio 2012\Projects\trov-guilded-rose-inn\ShoppingCartService\ShoppingAPI.Tests\obj\Debug\ShoppingAPI.Tests.pdb
+C:\Users\SRAZDAN\Documents\Visual Studio 2012\Projects\trov-guilded-rose-inn\ShoppingCartService\ShoppingAPI.Tests\bin\Debug\ShoppingAPI.Tests.dll.CodeAnalysisLog.xml
+C:\Users\SRAZDAN\Documents\Visual Studio 2012\Projects\trov-guilded-rose-inn\ShoppingCartService\ShoppingAPI.Tests\bin\Debug\ShoppingAPI.Tests.dll.lastcodeanalysissucceeded
