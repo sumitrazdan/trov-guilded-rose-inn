@@ -32,9 +32,16 @@ namespace InventoryAPI.Models
                 {
                     itemList = new List<T>();
                     
-                    repository.Find(item).Quantity -= item.Quantity;
-                    item.Price = repository.Find(item).Price;
-                    itemList.Add(item);
+                    if (repository.Find(item).Quantity - item.Quantity > 0)
+                    {
+                        repository.Find(item).Quantity -= item.Quantity;
+                        item.Price = repository.Find(item).Price;
+                        itemList.Add(item);
+                    }
+                    else
+                    {
+                        throw new InvalidOperationException("Add: Out of stock");
+                    }
                 }
                 else
                     Update(item);
@@ -50,8 +57,15 @@ namespace InventoryAPI.Models
 
                 if (found != null)
                 {
-                    found.Quantity++;
-                    repository.Find(item).Quantity -= item.Quantity;
+                    if (repository.Find(item).Quantity - item.Quantity > 0)
+                    {
+                        found.Quantity = item.Quantity;
+                        repository.Find(item).Quantity -= item.Quantity;
+                    }
+                    else
+                    {
+                        throw new InvalidOperationException("Update: Out of stock");
+                    }
                 }
             }
         }
